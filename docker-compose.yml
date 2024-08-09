@@ -1,0 +1,7 @@
+version: '3'
+services:
+  server:
+    build:
+      context: ./server  # path ไปยังโฟลเดอร์ที่มี Dockerfile ของ Server
+    ports:
+      - "12345:12345"
